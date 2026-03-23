@@ -19,10 +19,10 @@ The application code for this repository is contained in the [`./app`](./app) di
 To get started:
 
 ```bash
-cd app/ && npm init
+cd app/ && npm install
 ```
 
-All application deployments are managed via GitHub Actions and the [`./.github/workflows/deploy_application.yml`](./.github/workflows/deploy_application.yml) workflow.
+All application deployments are managed via GitHub Actions and the [`./.github/workflows/deploy-application.yml`](./.github/workflows/deploy-application.yml) workflow.
 
 ### Infrastructure
 
@@ -34,6 +34,6 @@ To get started:
 cd terraform/ && terraform init
 ```
 
-All infrastructure deployments are managed via GitHub Actions and the [`./.github/workflows/deploy_infrastructure.yml`](./.github/workflows/deploy_infrastructure.yml) workflow.
+All infrastructure deployments are managed via GitHub Actions and the [`./.github/workflows/deploy-infrastructure.yml`](./.github/workflows/deploy-infrastructure.yml) workflow.
 
 ![](./assets/architecture.svg)
