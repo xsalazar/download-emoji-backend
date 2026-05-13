@@ -1,0 +1,9 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/terraform": {
+      "version": "1.4.2",
+      "resolved": "ghcr.io/devcontainers/features/terraform@sha256:250d08e39c99d9e959e091e74527c22c04eeae728b424da99f002423c7902f82",
+      "integrity": "sha256:250d08e39c99d9e959e091e74527c22c04eeae728b424da99f002423c7902f82"
+    }
+  }
+}
